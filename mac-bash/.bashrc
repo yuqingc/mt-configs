@@ -16,7 +16,7 @@ alias egrep='egrep --color=auto'
 # use git autocompletion
 . ~/bin/git-completion.bash
 
-export PS1='\[\033[0;34m\]\u@\h:\[\033[0;33m\]\w\[\033[0;37m\]$ '
+export PS1='\[\033[0;34m\]\u@\h:\[\033[0;33m\]\W\[\033[0;37m\]$ '
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
