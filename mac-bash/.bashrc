@@ -17,6 +17,9 @@ alias egrep='egrep --color=auto'
 # use git autocompletion
 . ~/bin/git-completion.bash
 
+# pretty git log
+alias kan='git log --pretty=oneline --decorate --all --graph'
+
 export PS1='\[\033[0;34m\]\u@\h:\[\033[0;33m\]\W\[\033[0;37m\]$ '
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
