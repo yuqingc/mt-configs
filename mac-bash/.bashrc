@@ -3,6 +3,7 @@ alias ls='ls -G'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
 alias ..='cd ..'
 
 # use homebrew installed git rather than the system git
@@ -20,3 +21,11 @@ export PS1='\[\033[0;34m\]\u@\h:\[\033[0;33m\]\W\[\033[0;37m\]$ '
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# golang
+export GOPATH=/Users/matt/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
