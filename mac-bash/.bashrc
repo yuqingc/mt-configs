@@ -24,11 +24,11 @@ export PS1='\[\033[0;34m\]\u@\h:\[\033[0;33m\]\W\[\033[0;37m\]$ '
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-
+# nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # golang
-export GOPATH=/Users/matt/go
+export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
