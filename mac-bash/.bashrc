@@ -1,3 +1,6 @@
+# set language
+export LANG="en_US.UTF-8"
+
 # some more ls aliases
 alias ls='ls -G'
 alias ll='ls -alF'
@@ -32,3 +35,6 @@ export NVM_DIR="$HOME/.nvm"
 # golang
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+# java
+export CLASSPATH=$HOME/Projects/java/classes
